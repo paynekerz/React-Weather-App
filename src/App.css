@@ -1,9 +1,13 @@
+
 .container {
-  max-width: 1080px;
-  margin: 20px auto;
+    background-image: url("https://www.britannica.com/explore/savingearth/wp-content/uploads/sites/4/2019/04/0000197706-hero.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App {
+.content {
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;

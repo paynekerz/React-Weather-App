@@ -28,10 +28,12 @@ function App() {
     });
   };
   return (
-    <div className="App">
-      <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
+    <div className="container">
+      <div className="content">
+        <Search onSearchChange={handleOnSearchChange} />
+        {currentWeather && <CurrentWeather data={currentWeather} />}
+        {forecast && <Forecast data={forecast} />}
+      </div>
     </div>
   );
 }
